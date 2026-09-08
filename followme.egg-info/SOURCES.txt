@@ -1,0 +1,10 @@
+pyproject.toml
+followme/__init__.py
+followme.egg-info/PKG-INFO
+followme.egg-info/SOURCES.txt
+followme.egg-info/dependency_links.txt
+followme.egg-info/requires.txt
+followme.egg-info/top_level.txt
+followme/control/__init__.py
+followme/drone/__init__.py
+followme/vision/__init__.py

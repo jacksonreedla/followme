@@ -1,0 +1,11 @@
+numpy
+opencv-python
+onnxruntime
+ultralytics
+insightface
+mavsdk
+pyyaml
+
+[dev]
+pytest
+pytest-timeout
