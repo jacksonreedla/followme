@@ -45,7 +45,7 @@ class BBox:
 class FollowConfig:
     standoff_m: float = 4.0
     person_height_m: float = 1.7
-    focal_px: float = 554.0          # x500_mono_cam: 640px wide, 1.047 rad HFOV → ~554 px
+    focal_px: float = 270.0          # PX4 x500_mono_cam: 640 px wide, HFOV 1.74 rad → 320/tan(0.87) ≈ 270 px
     frame_w: int = 640
     frame_h: int = 480
     # gains: errors are normalised to [-1, 1] before the PIDs

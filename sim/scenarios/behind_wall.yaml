@@ -1,0 +1,11 @@
+# Subject walks behind a 3 m wall and emerges the other side: reacquisition test.
+name: behind_wall
+subject: walker
+duration_s: 45
+actors:
+  - name: walker
+    waypoints: [[4, 0, 0], [4, 0, 6], [10, -3, 14], [10, 3, 24], [18, 3, 34], [18, 3, 45]]
+boxes:
+  - name: wall
+    pose: [10, 0, 1.0, 0, 0, 0]
+    size: [0.3, 4.0, 2.0]

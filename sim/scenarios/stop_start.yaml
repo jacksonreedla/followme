@@ -1,0 +1,7 @@
+# Subject alternates walking and standing: controller must not overshoot the standoff.
+name: stop_start
+subject: walker
+duration_s: 45
+actors:
+  - name: walker
+    waypoints: [[4, 0, 0], [4, 0, 5], [10, 0, 12], [10, 0, 20], [16, 0, 27], [16, 0, 35], [22, 0, 42], [22, 0, 45]]

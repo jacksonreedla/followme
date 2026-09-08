@@ -1,0 +1,7 @@
+# Subject walks straight away from the drone at ~1 m/s. Baseline standoff tracking.
+name: straight
+subject: walker
+duration_s: 40
+actors:
+  - name: walker
+    waypoints: [[4, 0, 0], [4, 0, 8], [30, 0, 34], [30, 0, 40]]
